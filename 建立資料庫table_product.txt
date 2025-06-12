@@ -1,0 +1,13 @@
+CREATE TABLE products (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    price INT,
+    quantity INT
+);
+
+INSERT INTO product (name, price, quantity) VALUES
+('PUMA球鞋', 1900, 10),
+('NIKE運動鞋', 1600, 5),
+('ADDIDAS運動鞋', 2000, 15),
+('VANZ休閒鞋', 1800, 8),
+('籃球', 700, 20);
